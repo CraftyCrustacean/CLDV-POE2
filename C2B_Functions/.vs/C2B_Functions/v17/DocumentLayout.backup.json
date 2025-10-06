@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|c:\\users\\zach\\source\\repos\\c2b_functions\\c2b_functions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|solutionrelative:c2b_functions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|c:\\users\\zach\\source\\repos\\c2b_functions\\c2b_functions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|solutionrelative:c2b_functions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|c:\\users\\zach\\source\\repos\\c2b_functions\\c2b_functions\\functions\\enqueueorderfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|solutionrelative:c2b_functions\\functions\\enqueueorderfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|c:\\users\\zach\\source\\repos\\c2b_functions\\c2b_functions\\functions\\processorderqueuefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|solutionrelative:c2b_functions\\functions\\processorderqueuefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|c:\\users\\zach\\source\\repos\\c2b_functions\\c2b_functions\\functions\\uploadblobfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|solutionrelative:c2b_functions\\functions\\uploadblobfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|c:\\users\\zach\\source\\repos\\c2b_functions\\c2b_functions\\functions\\uploadfilesharefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|solutionrelative:c2b_functions\\functions\\uploadfilesharefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|c:\\users\\zach\\source\\repos\\c2b_functions\\c2b_functions\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|solutionrelative:c2b_functions\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|c:\\users\\zach\\source\\repos\\c2b_functions\\c2b_functions\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|solutionrelative:c2b_functions\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|c:\\users\\zach\\source\\repos\\c2b_functions\\c2b_functions\\models\\orderline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|solutionrelative:c2b_functions\\models\\orderline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|c:\\users\\zach\\source\\repos\\c2b_functions\\c2b_functions\\models\\ordermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|solutionrelative:c2b_functions\\models\\ordermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|c:\\users\\zach\\source\\repos\\c2b_functions\\c2b_functions\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|solutionrelative:c2b_functions\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|c:\\users\\zach\\source\\repos\\c2b_functions\\c2b_functions\\models\\queueordermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|solutionrelative:c2b_functions\\models\\queueordermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|c:\\users\\zach\\source\\repos\\c2b_functions\\c2b_functions\\functions\\tablefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|solutionrelative:c2b_functions\\functions\\tablefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|c:\\users\\zach\\source\\repos\\c2b_functions\\c2b_functions\\c2b_functions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|solutionrelative:c2b_functions\\c2b_functions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|c:\\users\\zach\\source\\repos\\c2b_functions\\c2b_functions\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47576C16-BF58-4003-A04B-05D2A37E01E2}|C2B_Functions\\C2B_Functions.csproj|solutionrelative:c2b_functions\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "C2B_Functions\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Models\\Customer.cs",
+              "RelativeToolTip": "C2B_Functions\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T13:02:18.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderLine.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Models\\OrderLine.cs",
+              "RelativeDocumentMoniker": "C2B_Functions\\Models\\OrderLine.cs",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Models\\OrderLine.cs",
+              "RelativeToolTip": "C2B_Functions\\Models\\OrderLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:43:47.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProcessOrderQueueFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Functions\\ProcessOrderQueueFunction.cs",
+              "RelativeDocumentMoniker": "C2B_Functions\\Functions\\ProcessOrderQueueFunction.cs",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Functions\\ProcessOrderQueueFunction.cs",
+              "RelativeToolTip": "C2B_Functions\\Functions\\ProcessOrderQueueFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:41:32.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnqueueOrderFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Functions\\EnqueueOrderFunction.cs",
+              "RelativeDocumentMoniker": "C2B_Functions\\Functions\\EnqueueOrderFunction.cs",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Functions\\EnqueueOrderFunction.cs",
+              "RelativeToolTip": "C2B_Functions\\Functions\\EnqueueOrderFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:40:28.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Program.cs",
+              "RelativeDocumentMoniker": "C2B_Functions\\Program.cs",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Program.cs",
+              "RelativeToolTip": "C2B_Functions\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:55:30.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\local.settings.json",
+              "RelativeDocumentMoniker": "C2B_Functions\\local.settings.json",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\local.settings.json",
+              "RelativeToolTip": "C2B_Functions\\local.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-06T10:01:03.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UploadBlobFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Functions\\UploadBlobFunction.cs",
+              "RelativeDocumentMoniker": "C2B_Functions\\Functions\\UploadBlobFunction.cs",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Functions\\UploadBlobFunction.cs",
+              "RelativeToolTip": "C2B_Functions\\Functions\\UploadBlobFunction.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowDYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:12:55.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "C2B_Functions\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Models\\Category.cs",
+              "RelativeToolTip": "C2B_Functions\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T13:02:21.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UploadFileShareFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Functions\\UploadFileShareFunction.cs",
+              "RelativeDocumentMoniker": "C2B_Functions\\Functions\\UploadFileShareFunction.cs",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Functions\\UploadFileShareFunction.cs",
+              "RelativeToolTip": "C2B_Functions\\Functions\\UploadFileShareFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:17:09.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Models\\OrderMessage.cs",
+              "RelativeDocumentMoniker": "C2B_Functions\\Models\\OrderMessage.cs",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Models\\OrderMessage.cs",
+              "RelativeToolTip": "C2B_Functions\\Models\\OrderMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:13:27.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "C2B_Functions\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Models\\Product.cs",
+              "RelativeToolTip": "C2B_Functions\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T13:02:04.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QueueOrderMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Models\\QueueOrderMessage.cs",
+              "RelativeDocumentMoniker": "C2B_Functions\\Models\\QueueOrderMessage.cs",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Models\\QueueOrderMessage.cs",
+              "RelativeToolTip": "C2B_Functions\\Models\\QueueOrderMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T16:37:03.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TableFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Functions\\TableFunction.cs",
+              "RelativeDocumentMoniker": "C2B_Functions\\Functions\\TableFunction.cs",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Functions\\TableFunction.cs",
+              "RelativeToolTip": "C2B_Functions\\Functions\\TableFunction.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T10:30:19.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "C2B_Functions.csproj",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\C2B_Functions.csproj",
+              "RelativeDocumentMoniker": "C2B_Functions\\C2B_Functions.csproj",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\C2B_Functions.csproj",
+              "RelativeToolTip": "C2B_Functions\\C2B_Functions.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-06T15:36:16.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "C2B_Functions\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Zach\\source\\repos\\C2B_Functions\\C2B_Functions\\Models\\Order.cs",
+              "RelativeToolTip": "C2B_Functions\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:43:34.906Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

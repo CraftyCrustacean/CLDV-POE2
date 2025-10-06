@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewBag.Title - My WebApp</title>
+
+    <link rel="stylesheet" href="~/css/site.css" />
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header class="topbar">
+        <div class="topbar-main">
+            <div class="topbar-left">
+                <form class="search-form" asp-controller="Products" asp-action="Search" method="get">
+                    <input type="text" name="query" placeholder="Search products..." />
+                    <button type="submit">
+                        <span class="material-icons">search</span>
+                    </button>
+                </form>
+            </div>
+
+            <div class="topbar-center">
+                <a href="@Url.Action("Index", "Home")" class="logo">
+                    <img src="~/images/logo.png" alt="ABC Retail" />
+                </a>
+            </div>
+
+            <div class="topbar-right">
+                <a href="@Url.Action("Create", "Customers")">
+                    <span class="material-icons">person</span>
+                    <span>Add Customer</span>
+                </a>
+                <a href="@Url.Action("Soon", "WIP")">
+                    <span class="material-icons">favorite</span>
+                    <span>Wishlist</span>
+                </a>
+                <a href="@Url.Action("Index", "Cart")">
+                    <span class="material-icons">shopping_cart</span>
+                    <span>Cart</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="topbar-subnav">
+            <a href="@Url.Action("Upload", "Contracts")">Upload Contract</a>
+            <span>|</span>
+            <a href="@Url.Action("Create", "Products")">Add a Product</a>
+        </div>
+    </header>
+
+    <main class="content">
+        @RenderBody()
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: ABCRetail@email.com</p>
+                <p>Phone: 123 456 7890</p>
+            </div>
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>ABC Retail stands for Afforadble Burnt Cream</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <p>
+                    <a>Facebook</a> |
+                    <a>Instagram</a> |
+                    <a>Twitter (X isnt real)</a>
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            ABC Retail. No rights reserved.
+        </div>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,71 @@
+﻿@model IEnumerable<C2B_POE1.Models.Product>
+@{
+    ViewData["Title"] = "Home Page";
+
+    var products = Model?.ToList() ?? new List<C2B_POE1.Models.Product>();
+
+    string placeholderImage = Url.Content("~/images/placeholder.png");
+    string placeholderName = "Coming Soon";
+    string placeholderPrice = "R1.23";
+
+    int minSlots = 16;
+    while (products.Count < minSlots)
+    {
+        products.Add(new C2B_POE1.Models.Product());
+    }
+}
+
+<section class="products-grid grid-row">
+    @for (int i = 0; i < products.Count; i++)
+    {
+        var product = products[i];
+        var img = string.IsNullOrEmpty(product?.ProductImageURL) ? placeholderImage : product.ProductImageURL;
+        var name = string.IsNullOrEmpty(product?.ProductName) ? placeholderName : product.ProductName;
+        var price = product?.ProductPrice != null ? product.ProductPrice.ToString("C") : placeholderPrice;
+
+        <div class="product-card">
+            <a asp-controller="Products" asp-action="Details"
+               asp-route-rowKey="@product?.RowKey" asp-route-partitionKey="@product?.PartitionKey">
+                <img src="@img" alt="@name" />
+                <h3>@name</h3>
+                <p>@price</p>
+            </a>
+
+            <form class="add-to-cart-form" data-rowkey="@product?.RowKey">
+                <input type="number" name="quantity" value="1" min="1" class="form-control" style="width:60px; display:inline-block;" />
+                <button type="submit" class="btn btn-primary" @(string.IsNullOrEmpty(product?.RowKey) ? "disabled" : "")><span class="material-icons" style="color: lightgray">shopping_cart</span></button>
+            </form>
+
+        </div>
+    }
+</section>
+
+@section Scripts {
+    <script>
+        const notification = document.getElementById('cart-notification');
+
+        document.querySelectorAll('.add-to-cart-form').forEach(form => {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                const rowKey = this.dataset.rowkey;
+                const quantity = this.querySelector('input[name="quantity"]').value;
+
+                fetch('/Cart/AddToCart', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: `rowKey=${rowKey}&quantity=${quantity}`
+                })
+                .then(res => res.json())
+                .then(data => {
+                    if(data.success){
+                        notification.textContent = `Added ${quantity} item(s) to cart. Total: ${data.quantity}`;
+                        notification.style.display = 'block';
+                        setTimeout(() => { notification.style.display = 'none'; }, 2000);
+                    }
+                })
+                .catch(err => console.error(err));
+            });
+        });
+    </script>
+}

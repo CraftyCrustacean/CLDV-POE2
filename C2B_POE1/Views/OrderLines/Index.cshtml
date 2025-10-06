@@ -1,0 +1,37 @@
+﻿@model IEnumerable<C2B_POE1.Models.OrderLine>
+
+@{
+    ViewData["Title"] = "Order Lines";
+}
+
+<h1>Order Lines</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Quantity</th>
+            <th>Order Partition Key</th>
+            <th>Product RowKey</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Quantity</td>
+                <td>@item.PartitionKey</td>
+                <td>@item.ProductRowKey</td>
+                <td>
+                    <a asp-action="Edit" asp-route-partitionKey="@item.PartitionKey" asp-route-rowKey="@item.RowKey">Edit</a> |
+                    <a asp-action="Details" asp-route-partitionKey="@item.PartitionKey" asp-route-rowKey="@item.RowKey">Details</a> |
+                    <a asp-action="Delete" asp-route-partitionKey="@item.PartitionKey" asp-route-rowKey="@item.RowKey">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

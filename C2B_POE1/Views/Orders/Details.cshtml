@@ -1,0 +1,37 @@
+﻿@model C2B_POE1.Models.Order
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Order</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Fufilled)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Fufilled)
+        </dd>
+        <dt class="col-sm-2">
+            Customer Partition Key
+        </dt>
+        <dd class="col-sm-10">
+            @Model.PartitionKey
+        </dd>
+        <dt class="col-sm-2">
+            Order Row Key
+        </dt>
+        <dd class="col-sm-10">
+            @Model.RowKey
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-rowKey="@Model.RowKey" asp-route-partitionKey="@Model.PartitionKey">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
