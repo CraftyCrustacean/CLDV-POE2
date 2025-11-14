@@ -15,6 +15,6 @@
     <WebStackScaffolding_DbContextTypeFullName>C2B_POE1.Data.C2B_POE1Context</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
-    <NameOfLastUsedPublishProfile>C:\Users\Zach\Desktop\C2B_POE1\Properties\PublishProfiles\st10435382a2app - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\Zach\Documents\GitHub\CLDV-POE2\C2B_POE1\Properties\PublishProfiles\st01435382poeapp - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

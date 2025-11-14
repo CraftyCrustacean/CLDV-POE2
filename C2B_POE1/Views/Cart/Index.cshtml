@@ -1,26 +1,142 @@
 ﻿@model List<CartItem>
 
-<h1>Cart</h1>
-<table class="table">
-    <tr>
-        <th>Product Name</th>
-        <th>Price</th>
-        <th>Quantity</th>
-        <th>Total</th>
-    </tr>
-    @foreach (var item in Model)
+@{
+    ViewData["Title"] = "Shopping Cart";
+    var total = Model.Sum(item => item.Product.ProductPrice * item.Quantity);
+}
+
+<div style="max-width: 1200px; margin: 40px auto; padding: 20px;">
+    <h1 style="margin-bottom: 30px;">
+        <span class="material-icons" style="vertical-align: middle; font-size: 36px;">shopping_cart</span>
+        Shopping Cart
+    </h1>
+
+    @if (!Model.Any())
     {
-        <tr>
-            <td>@item.Product.ProductName</td>
-            <td>@item.Product.ProductPrice.ToString("C")</td>
-            <td>@item.Quantity</td>
-            <td>@Model.Sum(item => item.Product.ProductPrice * item.Quantity).ToString("C")</td>
-        </tr>
+        <div style="text-align: center; padding: 60px 20px; background: #f8f9fa; border-radius: 8px;">
+            <span class="material-icons" style="font-size: 80px; color: #ccc;">shopping_cart</span>
+            <h2 style="color: #666; margin: 20px 0;">Your cart is empty</h2>
+            <p style="color: #999;">Add some products to get started!</p>
+            <a asp-controller="Products" asp-action="Index" style="display: inline-block; margin-top: 20px; padding: 12px 30px; background: #007bff; color: white; text-decoration: none; border-radius: 4px;">
+                Browse Products
+            </a>
+        </div>
     }
-</table>
+    else
+    {
+        <div style="display: grid; grid-template-columns: 1fr 350px; gap: 30px;">
+            <div>
+                <div style="background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    @foreach (var item in Model)
+                    {
+                        <div style="display: grid; grid-template-columns: 120px 1fr auto auto; gap: 20px; padding: 20px; border-bottom: 1px solid #eee; align-items: center;">
+                            <div>
+                                @if (!string.IsNullOrEmpty(item.Product.ProductImageURL))
+                                {
+                                    <img src="@item.Product.ProductImageURL" alt="@item.Product.ProductName"
+                                         style="width: 100%; height: 100px; object-fit: cover; border-radius: 8px;" />
+                                }
+                                else
+                                {
+                                    <div style="width: 100%; height: 100px; background: #f0f0f0; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #999;">
+                                        <span class="material-icons">image</span>
+                                    </div>
+                                }
+                            </div>
 
-<form asp-action="Checkout" method="post">
-    <button type="submit" class="btn btn-success">Checkout</button>
-</form>
+                            <div>
+                                <h3 style="margin: 0 0 8px 0; font-size: 18px;">@item.Product.ProductName</h3>
+                                <p style="color: #666; margin: 0; font-size: 14px;">@item.Product.ProductDescription</p>
+                                <p style="color: #333333; font-weight: bold; margin: 8px 0 0 0;">@item.Product.ProductPrice.ToString("C")</p>
+                            </div>
 
-<a asp-action="Clear" class="btn btn-danger">Clear Cart</a>
+                            <div style="display: flex; align-items: center; gap: 10px;">
+                                <form asp-action="UpdateQuantity" method="post" style="display: flex; align-items: center; gap: 10px;">
+                                    <input type="hidden" name="productRowKey" value="@item.Product.RowKey" />
+                                    <button type="submit" name="quantity" value="@(item.Quantity - 1)"
+                                            style="width: 32px; height: 32px; border: 1px solid #ddd; background: white; border-radius: 4px; cursor: pointer; display: flex; align-items: center; justify-content: center;"
+                                            @(item.Quantity <= 1 ? "disabled" : "")>
+                                        <span class="material-icons" style="font-size: 18px;">remove</span>
+                                    </button>
+                                    <span style="min-width: 40px; text-align: center; font-weight: bold; font-size: 16px;">@item.Quantity</span>
+                                    <button type="submit" name="quantity" value="@(item.Quantity + 1)"
+                                            style="width: 32px; height: 32px; border: 1px solid #ddd; background: white; border-radius: 4px; cursor: pointer; display: flex; align-items: center; justify-content: center;">
+                                        <span class="material-icons" style="font-size: 18px;">add</span>
+                                    </button>
+                                </form>
+                            </div>
+
+                            <div style="text-align: right;">
+                                <p style="font-size: 20px; font-weight: bold; margin: 0 0 10px 0;">
+                                    @((item.Product.ProductPrice * item.Quantity).ToString("C"))
+                                </p>
+                                <form asp-action="RemoveItem" method="post" style="display: inline;"
+                                      onsubmit="return confirm('Remove this item from cart?');">
+                                    <input type="hidden" name="productRowKey" value="@item.Product.RowKey" />
+                                    <button type="submit" style="background: #e07575; color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; display: flex; align-items: center; gap: 4px;">
+                                        <span class="material-icons" style="font-size: 18px;">delete</span>
+                                        Remove
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div>
+                <div style="background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 24px; position: sticky; top: 20px;">
+                    <h2 style="margin: 0 0 20px 0; font-size: 20px; padding-bottom: 16px; border-bottom: 2px solid #eee;">
+                        Order Summary
+                    </h2>
+
+                    <div style="margin-bottom: 12px; display: flex; justify-content: space-between;">
+                        <span style="color: #666;">Items (@Model.Sum(i => i.Quantity)):</span>
+                        <span style="font-weight: 500;">@total.ToString("C")</span>
+                    </div>
+
+
+
+                    <div style="padding-top: 12px; border-top: 2px solid #eee; margin-bottom: 20px;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-size: 18px; font-weight: bold;">Total:</span>
+                            <span style="font-size: 24px; font-weight: bold;">@total.ToString("C")</span>
+                        </div>
+                    </div>
+
+                    <form asp-action="Checkout" method="post">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" style="width: 100%; padding: 16px; background: #BEB4F1; color: #333333; border: none; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                            <span class="material-icons">payment</span>
+                            Proceed to Checkout
+                        </button>
+                    </form>
+
+                    <div style="margin-top: 16px; display: flex; gap: 8px;">
+                        <a asp-action="Clear" style="flex: 1; padding: 12px; background: #e07575; color: white; text-decoration: none; border-radius: 6px; text-align: center; display: flex; align-items: center; justify-content: center; gap: 4px;">
+                            <span class="material-icons" style="font-size: 18px;">delete_sweep</span>
+                            Clear Cart
+                        </a>
+                        <a asp-controller="Products" asp-action="Index" style="flex: 1; padding: 12px; background: #6c757d; color: white; text-decoration: none; border-radius: 6px; text-align: center; display: flex; align-items: center; justify-content: center; gap: 4px;">
+                            <span class="material-icons" style="font-size: 18px;">shopping_bag</span>
+                            Continue Shopping
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    button:hover {
+        opacity: 0.9;
+        transform: translateY(-1px);
+        transition: all 0.2s;
+    }
+
+    button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+</style>

@@ -2,36 +2,134 @@
 
 @{
     ViewData["Title"] = "Order Details";
+    var orderLines = ViewBag.OrderLines as List<C2B_POE1.Models.OrderLine> ?? new List<C2B_POE1.Models.OrderLine>();
+    var productLookup = ViewBag.ProductLookup as Dictionary<string, C2B_POE1.Models.Product> ?? new Dictionary<string, C2B_POE1.Models.Product>();
+    var orderTotal = 0.0;
 }
 
-<h1>Details</h1>
+<div style="max-width: 1000px; margin: 40px auto; padding: 20px;">
 
-<div>
-    <h4>Order</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Fufilled)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Fufilled)
-        </dd>
-        <dt class="col-sm-2">
-            Customer Partition Key
-        </dt>
-        <dd class="col-sm-10">
-            @Model.PartitionKey
-        </dd>
-        <dt class="col-sm-2">
-            Order Row Key
-        </dt>
-        <dd class="col-sm-10">
-            @Model.RowKey
-        </dd>
-    </dl>
-</div>
+    <div style="background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 24px; margin-bottom: 20px;">
+        <h3 style="margin: 0 0 16px 0; padding-bottom: 12px; border-bottom: 2px solid #eee;">Order Information</h3>
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;">
+            <div>
+                <strong style="color: #666;">Customer Email:</strong>
+                <p style="margin: 4px 0 0 0;">@Model.PartitionKey</p>
+            </div>
+            <div>
+                <strong style="color: #666;">Status:</strong>
+                <p style="margin: 4px 0 0 0;">@(Model.Fufilled ? "Fulfilled" : "Pending")</p>
+            </div>
+            <div>
+                <strong style="color: #666;">Order ID:</strong>
+                <p style="margin: 4px 0 0 0; font-family: monospace; font-size: 12px;">@Model.RowKey</p>
+            </div>
+        </div>
+    </div>
 
-<div>
-    <a asp-action="Edit" asp-route-rowKey="@Model.RowKey" asp-route-partitionKey="@Model.PartitionKey">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <div style="background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 24px; margin-bottom: 20px;">
+        <h3 style="margin: 0 0 16px 0; padding-bottom: 12px; border-bottom: 2px solid #eee;">Order Items</h3>
+
+        @if (!orderLines.Any())
+        {
+            <p style="color: #999; text-align: center; padding: 20px;">No items found for this order.</p>
+        }
+        else
+        {
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr style="border-bottom: 2px solid #eee;">
+                        <th style="text-align: left; padding: 12px 8px; color: #666; font-weight: 600;">Product</th>
+                        <th style="text-align: center; padding: 12px 8px; color: #666; font-weight: 600;">Quantity</th>
+                        <th style="text-align: right; padding: 12px 8px; color: #666; font-weight: 600;">Price</th>
+                        <th style="text-align: right; padding: 12px 8px; color: #666; font-weight: 600;">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var line in orderLines)
+                    {
+                        var product = productLookup.ContainsKey(line.ProductRowKey) ? productLookup[line.ProductRowKey] : null;
+                        var productName = product?.ProductName ?? "Unknown Product";
+                        var productPrice = product?.ProductPrice ?? 0;
+                        var lineTotal = productPrice * line.Quantity;
+                        orderTotal += lineTotal;
+
+                        <tr style="border-bottom: 1px solid #eee;">
+                            <td style="padding: 16px 8px;">
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    @if (product != null && !string.IsNullOrEmpty(product.ProductImageURL))
+                                    {
+                                        <img src="@product.ProductImageURL" alt="@productName"
+                                             style="width: 60px; height: 60px; object-fit: cover; border-radius: 4px;" />
+                                    }
+                                    else
+                                    {
+                                        <div style="width: 60px; height: 60px; background: #f0f0f0; border-radius: 4px; display: flex; align-items: center; justify-content: center;">
+                                            <span class="material-icons" style="color: #999;">image</span>
+                                        </div>
+                                    }
+                                    <div>
+                                        <strong>@productName</strong>
+                                        @if (product != null && !string.IsNullOrEmpty(product.ProductDescription))
+                                        {
+                                            <p style="margin: 4px 0 0 0; color: #666; font-size: 14px;">@product.ProductDescription</p>
+                                        }
+                                    </div>
+                                </div>
+                            </td>
+                            <td style="text-align: center; padding: 16px 8px;">
+                                <strong>@line.Quantity</strong>
+                            </td>
+                            <td style="text-align: right; padding: 16px 8px;">
+                                @productPrice.ToString("C")
+                            </td>
+                            <td style="text-align: right; padding: 16px 8px;">
+                                <strong>@lineTotal.ToString("C")</strong>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr style="border-top: 2px solid #eee;">
+                        <td colspan="3" style="text-align: right; padding: 16px 8px; font-weight: bold; font-size: 18px;">
+                            Order Total:
+                        </td>
+                        <td style="text-align: right; padding: 16px 8px; font-weight: bold; font-size: 20px; color: black;">
+                            @orderTotal.ToString("C")
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        }
+    </div>
+
+    <div style="display: flex; gap: 10px;">
+        @if (User.IsInRole("Admin") && !Model.Fufilled)
+        {
+            <form asp-controller="Orders" asp-action="MarkFulfilled" method="post" style="display: inline;">
+                <input type="hidden" name="rowKey" value="@Model.RowKey" />
+                <button type="submit" class="btn btn-success"
+                        onclick="return confirm('Mark this order as fulfilled?');"
+                        style="background: #88a681; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer;">
+                    <span class="material-icons" style="vertical-align: middle; font-size: 18px;">check_circle</span>
+                    Mark as Fulfilled
+                </button>
+            </form>
+        }
+
+        @if (User.IsInRole("Customer"))
+        {
+            <a asp-action="MyOrders" style="padding: 10px 20px; background: #6c757d; color: white; text-decoration: none; border-radius: 4px;">
+                <span class="material-icons" style="vertical-align: middle; font-size: 18px;">arrow_back</span>
+                Back to My Orders
+            </a>
+        }
+        else
+        {
+            <a asp-action="Index" style="padding: 10px 20px; background: #6c757d; color: white; text-decoration: none; border-radius: 4px;">
+                <span class="material-icons" style="vertical-align: middle; font-size: 18px;">arrow_back</span>
+                Back to All Orders
+            </a>
+        }
+    </div>
 </div>

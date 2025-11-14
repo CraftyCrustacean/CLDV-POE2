@@ -43,10 +43,30 @@
                         ? ViewBag.CategoryLookup[item.PartitionKey]
                         : "Unknown")
                 </td>
-                <td>
-                    <a asp-action="Edit" asp-route-rowKey="@item.RowKey" asp-route-partitionKey="@item.PartitionKey" class="btn btn-sm btn-warning">Edit</a>
-                    <a asp-action="Details" asp-route-rowKey="@item.RowKey" asp-route-partitionKey="@item.PartitionKey" class="btn btn-sm btn-info">Details</a>
-                    <a asp-action="Delete" asp-route-rowKey="@item.RowKey" asp-route-partitionKey="@item.PartitionKey" class="btn btn-sm btn-danger">Delete</a>
+            <td>
+                @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Edit" asp-route-rowKey="@item.RowKey" asp-route-partitionKey="@item.PartitionKey" class="btn btn-sm btn-warning">Edit</a>
+                        <a asp-action="Details" asp-route-rowKey="@item.RowKey" asp-route-partitionKey="@item.PartitionKey" class="btn btn-sm btn-info">Details</a>
+                        <a asp-action="Delete" asp-route-rowKey="@item.RowKey" asp-route-partitionKey="@item.PartitionKey" class="btn btn-sm btn-danger">Delete</a>
+                    }
+                    else
+                    {
+                        <a asp-action="Details" asp-route-rowKey="@item.RowKey" asp-route-partitionKey="@item.PartitionKey" class="btn btn-sm btn-info">View</a>
+
+                        @if (User.Identity?.IsAuthenticated == true)
+                        {
+                            <form asp-controller="Cart" asp-action="AddToCart" method="post" style="display: inline;">
+                                <input type="hidden" name="rowKey" value="@item.RowKey" />
+                                <input type="hidden" name="quantity" value="1" />
+                                <button type="submit" class="btn btn-sm btn-success">Add to Cart</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <a asp-controller="Account" asp-action="Login" class="btn btn-sm btn-success">Login to Purchase</a>
+                        }
+                    }
                 </td>
             </tr>
         }

@@ -16,7 +16,7 @@ namespace C2B_POE1.Data
             if (file == null || file.Length == 0) return string.Empty;
 
             using var stream = file.OpenReadStream();
-            var request = new HttpRequestMessage(HttpMethod.Post, "https://st10435382func-e0drdcavcae5chen.uksouth-01.azurewebsites.net/api/UploadFileShare")
+            var request = new HttpRequestMessage(HttpMethod.Post, "https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/UploadFileShare?code=Iqqo-Qknlg7OJL9RXdgiUG3p4b8PTjSQSzAjw0ObADEwAzFux63uIA==")
             {
                 Content = new StreamContent(stream)
             };

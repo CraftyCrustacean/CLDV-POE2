@@ -6,30 +6,45 @@
 
 <h1>Orders</h1>
 
-<p>
-    <a asp-action="Create">Create New Order</a>
-</p>
-
 <table class="table">
     <thead>
         <tr>
-            <th>@Html.DisplayNameFor(model => model.Fufilled)</th>
-            <th>Customer PartitionKey</th>
-            <th>Order RowKey</th>
-            <th></th>
+            <th>Fulfilled</th>
+            <th>Customer Email</th>
+            <th>Order ID</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
             <tr>
-                <td>@Html.DisplayFor(modelItem => item.Fufilled)</td>
-                <td>@item.PartitionKey</td>
-                <td>@item.RowKey</td>
                 <td>
-                    <a asp-action="Edit" asp-route-partitionKey="@item.PartitionKey" asp-route-rowKey="@item.RowKey">Edit</a> |
-                    <a asp-action="Details" asp-route-partitionKey="@item.PartitionKey" asp-route-rowKey="@item.RowKey">Details</a> |
-                    <a asp-action="Delete" asp-route-partitionKey="@item.PartitionKey" asp-route-rowKey="@item.RowKey">Delete</a>
+                    @if (item.Fufilled)
+                    {
+                        <span style="color: #359c10; font-weight: bold;">Fulfilled</span>
+                    }
+                    else
+                    {
+                        <span style="color: #cfa717; font-weight: bold;">Pending</span>
+                    }
+                </td>
+                <td>@item.PartitionKey</td>
+                <td>@item.RowKey.Substring(0, 8)...</td>
+                <td>
+                    <a asp-action="Details" asp-route-rowKey="@item.RowKey">Details</a>
+
+                    @if (!item.Fufilled)
+                    {
+                        <text> | </text>
+                        <form asp-action="MarkFulfilled" method="post" style="display: inline;">
+                            <input type="hidden" name="rowKey" value="@item.RowKey" />
+                            <button type="submit" class="btn btn-sm btn-success"
+                                    onclick="return confirm('Mark this order as fulfilled?');">
+                                Mark Fulfilled
+                            </button>
+                        </form>
+                    }
                 </td>
             </tr>
         }

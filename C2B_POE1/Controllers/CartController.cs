@@ -1,4 +1,5 @@
 ﻿using C2B_POE1.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Http.Json;
 using System.Text;
@@ -6,6 +7,7 @@ using System.Text.Json;
 
 namespace C2B_POE1.Controllers
 {
+    [Authorize(Roles = "Customer")]
     public class CartController : Controller
     {
         private const string SessionKey = "Cart";
@@ -18,7 +20,7 @@ namespace C2B_POE1.Controllers
 
         // POST: Add product to cart
         [HttpPost]
-        public IActionResult AddToCart(string rowKey, int quantity = 1)
+        public IActionResult AddToCart(string rowKey, int quantity = 1, string returnUrl = null)
         {
             var cartJson = HttpContext.Session.GetString(SessionKey);
             var cart = string.IsNullOrEmpty(cartJson)
@@ -31,7 +33,18 @@ namespace C2B_POE1.Controllers
                 cart[rowKey] = quantity;
 
             HttpContext.Session.SetString(SessionKey, JsonSerializer.Serialize(cart));
-            return Json(new { success = true, quantity = cart[rowKey] });
+
+            var totalItems = cart.Sum(x => x.Value);
+
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            {
+                return Json(new { success = true, quantity = cart[rowKey], totalItems = totalItems });
+            }
+
+            if (!string.IsNullOrEmpty(returnUrl))
+                return Redirect(returnUrl);
+
+            return RedirectToAction("Details", "Products", new { rowKey = rowKey });
         }
 
         // GET: Cart
@@ -42,7 +55,7 @@ namespace C2B_POE1.Controllers
                 ? new Dictionary<string, int>()
                 : JsonSerializer.Deserialize<Dictionary<string, int>>(cartJson)!;
 
-            var products = await _httpClient.GetFromJsonAsync<List<Product>>("https://st10435382func-e0drdcavcae5chen.uksouth-01.azurewebsites.net/api/table/Product")
+            var products = await _httpClient.GetFromJsonAsync<List<Product>>("https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/table/Product")
                            ?? new List<Product>();
 
             var cartItems = cartDict.Select(kvp =>
@@ -76,19 +89,22 @@ namespace C2B_POE1.Controllers
             if (cart.Count == 0)
                 return RedirectToAction("Index");
 
+            var userEmail = User.FindFirst(System.Security.Claims.ClaimTypes.Email)?.Value ?? "guest@example.com";
+            var userName = $"{User.FindFirst(System.Security.Claims.ClaimTypes.GivenName)?.Value} {User.FindFirst(System.Security.Claims.ClaimTypes.Surname)?.Value}";
+
             var orderRowKey = Guid.NewGuid().ToString();
 
             var queueOrderMessage = new QueueOrderMessage
             {
                 Order = new QueueOrder
                 {
-                    PartitionKey = "Orders",
+                    PartitionKey = userEmail,
                     RowKey = orderRowKey,
                     Fufilled = false
                 },
                 OrderLines = cart.Select(kvp => new QueueOrderLine
                 {
-                    PartitionKey = "Orders",
+                    PartitionKey = orderRowKey,
                     RowKey = Guid.NewGuid().ToString(),
                     ProductRowKey = kvp.Key,
                     Quantity = kvp.Value
@@ -98,17 +114,72 @@ namespace C2B_POE1.Controllers
             var json = JsonSerializer.Serialize(queueOrderMessage);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-            var response = await _httpClient.PostAsync("https://st10435382func-e0drdcavcae5chen.uksouth-01.azurewebsites.net/api/EnqueueOrder", content);
+            var response = await _httpClient.PostAsync("https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/EnqueueOrder?code=5VxMtOqrXapt26DrAcHAAAF-F18Yn5DkdDq4OGDtDYBmAzFuYzEpSA==", content);
 
             if (!response.IsSuccessStatusCode)
             {
-                TempData["Error"] = "Failed to queue order. Please try again.";
+                var errorContent = await response.Content.ReadAsStringAsync();
+                TempData["Error"] = $"Failed to queue order: {errorContent}";
                 return RedirectToAction("Index");
             }
 
             HttpContext.Session.Remove(SessionKey);
-            TempData["Success"] = $"Order {orderRowKey} queued successfully!";
+            TempData["Success"] = $"Order {orderRowKey} placed successfully!";
+            return RedirectToAction("MyOrders", "Orders");
+        }
+
+        // POST: Cart/UpdateQuantity
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult UpdateQuantity(string productRowKey, int quantity)
+        {
+            var cartJson = HttpContext.Session.GetString(SessionKey);
+            if (string.IsNullOrEmpty(cartJson))
+                return RedirectToAction("Index");
+
+            var cart = JsonSerializer.Deserialize<Dictionary<string, int>>(cartJson)!;
+
+            if (quantity <= 0)
+            {
+                cart.Remove(productRowKey);
+            }
+            else
+            {
+                cart[productRowKey] = quantity;
+            }
+
+            HttpContext.Session.SetString(SessionKey, JsonSerializer.Serialize(cart));
             return RedirectToAction("Index");
+        }
+
+        // POST: Cart/RemoveItem
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult RemoveItem(string productRowKey)
+        {
+            var cartJson = HttpContext.Session.GetString(SessionKey);
+            if (string.IsNullOrEmpty(cartJson))
+                return RedirectToAction("Index");
+
+            var cart = JsonSerializer.Deserialize<Dictionary<string, int>>(cartJson)!;
+            cart.Remove(productRowKey);
+
+            HttpContext.Session.SetString(SessionKey, JsonSerializer.Serialize(cart));
+            TempData["Success"] = "Item removed from cart";
+            return RedirectToAction("Index");
+        }
+
+        // GET: Cart/GetCartCount
+        [HttpGet]
+        public IActionResult GetCartCount()
+        {
+            var cartJson = HttpContext.Session.GetString(SessionKey);
+            var cart = string.IsNullOrEmpty(cartJson)
+                ? new Dictionary<string, int>()
+                : JsonSerializer.Deserialize<Dictionary<string, int>>(cartJson)!;
+
+            var totalItems = cart.Sum(x => x.Value);
+            return Json(new { count = totalItems });
         }
 
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C2B_POE1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95417a7a608d8852259b1e8644d4634f5ba43da3")]
 [assembly: System.Reflection.AssemblyProductAttribute("C2B_POE1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C2B_POE1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

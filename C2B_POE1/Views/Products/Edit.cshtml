@@ -12,6 +12,7 @@
         <form asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="RowKey" />
+            <input type="hidden" asp-for="PartitionKey" />
 
             <div class="form-group mb-3">
                 <label asp-for="ProductName" class="control-label"></label>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5zp1JzlpXOY=",
+  "dgSpecHash": "Bk7ugQuYPuQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\C2B_POE1.csproj",
+  "projectFilePath": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\C2B_POE1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Zach\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
     "C:\\Users\\Zach\\.nuget\\packages\\azure.data.tables\\12.11.0\\azure.data.tables.12.11.0.nupkg.sha512",

@@ -1,232 +1,244 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\",
+  "WorkspaceRootPath": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\controllers\\orderlinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\orderlinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\controllers\\wipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\wipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\data\\azurefileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:data\\azurefileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\data\\azurequeuesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:data\\azurequeuesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\data\\azuretableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:data\\azuretableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\data\\ordersfunctionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:data\\ordersfunctionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\models\\orderline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\orderline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\models\\ordermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\ordermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\models\\queueordermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\queueordermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\data\\azureblobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:data\\azureblobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\orders\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\orders\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\data\\ordersfunctionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:data\\ordersfunctionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\data\\c2b_poe1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:data\\c2b_poe1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\data\\azurefileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:data\\azurefileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\data\\azureblobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:data\\azureblobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\controllers\\orderlinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\orderlinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\data\\azurequeuesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:data\\azurequeuesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\data\\azuretableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:data\\azuretableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\controllers\\wipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:controllers\\wipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\models\\orderline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\orderline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\models\\ordermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\ordermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\models\\queueordermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:models\\queueordermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zach\\AppData\\Local\\Temp\\.vsdbgsrc\\e2fe1dc56d550dc5d1f8d6f05ef0487f92a7dd85b063ddb34b2e20a6371911bc\\RetryPolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\wip\\soon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\wip\\soon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\wip\\soon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\orderlines\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\orderlines\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\orderlines\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\orderlines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\orderlines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\orderlines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\orderlines\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\orderlines\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\orderlines\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\orderlines\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\orderlines\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\orderlines\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\orderlines\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\orderlines\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\orderlines\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\customers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\customers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\contracts\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\contracts\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\contracts\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\desktop\\c2b_poe1\\migrations\\20250826185605_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|c:\\users\\zach\\documents\\github\\cldv-poe2\\c2b_poe1\\migrations\\20250826185605_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{39586556-A640-4F0C-88F4-CC9B4522BC0C}|C2B_POE1.csproj|solutionrelative:migrations\\20250826185605_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -237,28 +249,275 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAHAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-27T14:31:00.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-27T14:31:08.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Orders\\MyOrders.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\MyOrders.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Orders\\MyOrders.cshtml",
+              "RelativeToolTip": "Views\\Orders\\MyOrders.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T21:22:33.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Products\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-27T11:23:28.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-27T11:23:24.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-27T12:08:47.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-27T11:23:00.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T15:39:16.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T21:21:08.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T21:21:39.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T14:59:23.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T18:24:54.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-27T15:00:48.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T21:22:08.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrdersFunctionService.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Data\\OrdersFunctionService.cs",
+              "RelativeDocumentMoniker": "Data\\OrdersFunctionService.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Data\\OrdersFunctionService.cs",
+              "RelativeToolTip": "Data\\OrdersFunctionService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCIAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:17:55.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "C2B_POE1Context.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Data\\C2B_POE1Context.cs",
+              "RelativeDocumentMoniker": "Data\\C2B_POE1Context.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Data\\C2B_POE1Context.cs",
+              "RelativeToolTip": "Data\\C2B_POE1Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T21:43:56.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AzureFileService.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Data\\AzureFileService.cs",
+              "RelativeDocumentMoniker": "Data\\AzureFileService.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Data\\AzureFileService.cs",
+              "RelativeToolTip": "Data\\AzureFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T10:39:35.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AzureBlobService.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Data\\AzureBlobService.cs",
+              "RelativeDocumentMoniker": "Data\\AzureBlobService.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Data\\AzureBlobService.cs",
+              "RelativeToolTip": "Data\\AzureBlobService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T11:54:27.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAmwDkAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAkwC4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T18:50:26.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwD0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T18:53:47.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "OrderLinesController.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\OrderLinesController.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\OrderLinesController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderLinesController.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\OrderLinesController.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\OrderLinesController.cs",
               "RelativeToolTip": "Controllers\\OrderLinesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAACWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -267,180 +526,115 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 21,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T15:05:28.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T14:13:56.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-26T14:13:39.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "Controllers\\CustomersController.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAuwGwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T18:52:59.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 22,
               "Title": "FileController.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\FileController.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\FileController.cs",
               "RelativeDocumentMoniker": "Controllers\\FileController.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\FileController.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\FileController.cs",
               "RelativeToolTip": "Controllers\\FileController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T10:45:30.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\Category.cs",
-              "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAChAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T14:54:35.917Z",
+              "WhenOpened": "2025-08-26T18:52:21.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\CartController.cs",
-              "RelativeToolTip": "Controllers\\CartController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T14:59:23.13Z",
+              "WhenOpened": "2025-11-13T21:11:49.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "Controllers\\OrdersController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwDMAAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T18:53:47.695Z",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-26T14:13:39.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WIPController.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\WIPController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WIPController.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\WIPController.cs",
-              "RelativeToolTip": "Controllers\\WIPController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEYAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T14:26:43.293Z",
+              "WhenOpened": "2025-08-26T14:13:56.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AzureFileService.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Data\\AzureFileService.cs",
-              "RelativeDocumentMoniker": "Data\\AzureFileService.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Data\\AzureFileService.cs",
-              "RelativeToolTip": "Data\\AzureFileService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAACHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T10:39:35.64Z",
+              "DocumentIndex": 27,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-27T14:30:53.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AzureQueuesService.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Data\\AzureQueuesService.cs",
-              "RelativeDocumentMoniker": "Data\\AzureQueuesService.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Data\\AzureQueuesService.cs",
-              "RelativeToolTip": "Data\\AzureQueuesService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBEAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T22:13:02.217Z",
+              "DocumentIndex": 28,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAL0AAAAAAAAAAAASwM8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-25T15:38:29.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AzureTableService.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Data\\AzureTableService.cs",
-              "RelativeDocumentMoniker": "Data\\AzureTableService.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Data\\AzureTableService.cs",
-              "RelativeToolTip": "Data\\AzureTableService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAcwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T10:54:56.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "OrdersFunctionService.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Data\\OrdersFunctionService.cs",
-              "RelativeDocumentMoniker": "Data\\OrdersFunctionService.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Data\\OrdersFunctionService.cs",
-              "RelativeToolTip": "Data\\OrdersFunctionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T09:17:55.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 29,
               "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "Models\\CartItem.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\CartItem.cs",
               "RelativeToolTip": "Models\\CartItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -449,166 +643,179 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\Customer.cs",
-              "RelativeToolTip": "Models\\Customer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 30,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T14:53:43.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T21:07:27.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T19:20:00.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AzureQueuesService.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Data\\AzureQueuesService.cs",
+              "RelativeDocumentMoniker": "Data\\AzureQueuesService.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Data\\AzureQueuesService.cs",
+              "RelativeToolTip": "Data\\AzureQueuesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T22:13:02.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AzureTableService.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Data\\AzureTableService.cs",
+              "RelativeDocumentMoniker": "Data\\AzureTableService.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Data\\AzureTableService.cs",
+              "RelativeToolTip": "Data\\AzureTableService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T10:54:56.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T14:53:57.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "WIPController.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\WIPController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WIPController.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Controllers\\WIPController.cs",
+              "RelativeToolTip": "Controllers\\WIPController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T14:26:43.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-13T14:56:27.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "serviceDependencies.json",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Properties\\serviceDependencies.json",
+              "RelativeDocumentMoniker": "Properties\\serviceDependencies.json",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Properties\\serviceDependencies.json",
+              "RelativeToolTip": "Properties\\serviceDependencies.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-13T14:56:39.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T14:54:35.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T18:46:43.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T18:46:43.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 40,
               "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\Order.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\Order.cs",
               "RelativeToolTip": "Models\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T14:55:28.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T14:55:28.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 41,
               "Title": "OrderLine.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\OrderLine.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\OrderLine.cs",
               "RelativeDocumentMoniker": "Models\\OrderLine.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\OrderLine.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\OrderLine.cs",
               "RelativeToolTip": "Models\\OrderLine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T14:55:41.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T14:55:41.832Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 42,
               "Title": "OrderMessage.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\OrderMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\OrderMessage.cs",
               "RelativeDocumentMoniker": "Models\\OrderMessage.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\OrderMessage.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\OrderMessage.cs",
               "RelativeToolTip": "Models\\OrderMessage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T11:34:56.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T11:34:56.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T14:53:57.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 43,
               "Title": "QueueOrderMessage.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\QueueOrderMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\QueueOrderMessage.cs",
               "RelativeDocumentMoniker": "Models\\QueueOrderMessage.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Models\\QueueOrderMessage.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Models\\QueueOrderMessage.cs",
               "RelativeToolTip": "Models\\QueueOrderMessage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T16:36:08.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T16:36:08.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AzureBlobService.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Data\\AzureBlobService.cs",
-              "RelativeDocumentMoniker": "Data\\AzureBlobService.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Data\\AzureBlobService.cs",
-              "RelativeToolTip": "Data\\AzureBlobService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAswBUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T11:54:27.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAgwDMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T18:52:21.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-25T15:39:16.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T11:23:00.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Orders\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Orders\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Orders\\Index.cshtml",
-              "RelativeToolTip": "Views\\Orders\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T14:31:08.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 44,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Orders\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Orders\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Orders\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Orders\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Orders\\Edit.cshtml",
               "RelativeToolTip": "Views\\Orders\\Edit.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAADgvxIAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -616,11 +823,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 45,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Orders\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Orders\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Orders\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Orders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Orders\\Create.cshtml",
               "RelativeToolTip": "Views\\Orders\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -628,83 +835,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Orders\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Orders\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Orders\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Orders\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T14:30:53.281Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Orders\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Orders\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Orders\\Details.cshtml",
-              "RelativeToolTip": "Views\\Orders\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T14:31:00.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T15:00:48.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T18:24:54.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 46,
               "Title": "RetryPolicy.cs",
               "DocumentMoniker": "C:\\Users\\Zach\\AppData\\Local\\Temp\\.vsdbgsrc\\e2fe1dc56d550dc5d1f8d6f05ef0487f92a7dd85b063ddb34b2e20a6371911bc\\RetryPolicy.cs",
-              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e2fe1dc56d550dc5d1f8d6f05ef0487f92a7dd85b063ddb34b2e20a6371911bc\\RetryPolicy.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e2fe1dc56d550dc5d1f8d6f05ef0487f92a7dd85b063ddb34b2e20a6371911bc\\RetryPolicy.cs",
               "ToolTip": "C:\\Users\\Zach\\AppData\\Local\\Temp\\.vsdbgsrc\\e2fe1dc56d550dc5d1f8d6f05ef0487f92a7dd85b063ddb34b2e20a6371911bc\\RetryPolicy.cs",
-              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e2fe1dc56d550dc5d1f8d6f05ef0487f92a7dd85b063ddb34b2e20a6371911bc\\RetryPolicy.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e2fe1dc56d550dc5d1f8d6f05ef0487f92a7dd85b063ddb34b2e20a6371911bc\\RetryPolicy.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAiwHUAAAABAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T13:14:00.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-08-25T15:38:29.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 47,
               "Title": "Soon.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\WIP\\Soon.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\WIP\\Soon.cshtml",
               "RelativeDocumentMoniker": "Views\\WIP\\Soon.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\WIP\\Soon.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\WIP\\Soon.cshtml",
               "RelativeToolTip": "Views\\WIP\\Soon.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -712,11 +859,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 49,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\OrderLines\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\OrderLines\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\OrderLines\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\OrderLines\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\OrderLines\\Index.cshtml",
               "RelativeToolTip": "Views\\OrderLines\\Index.cshtml",
               "ViewState": "AgIAAAUAAAAAAAAAAAAmwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -724,11 +871,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 50,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\OrderLines\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\OrderLines\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\OrderLines\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\OrderLines\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\OrderLines\\Edit.cshtml",
               "RelativeToolTip": "Views\\OrderLines\\Edit.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAmwB4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -736,11 +883,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 51,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\OrderLines\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\OrderLines\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\OrderLines\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\OrderLines\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\OrderLines\\Details.cshtml",
               "RelativeToolTip": "Views\\OrderLines\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAmwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -748,11 +895,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 48,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\OrderLines\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\OrderLines\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\OrderLines\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\OrderLines\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\OrderLines\\Create.cshtml",
               "RelativeToolTip": "Views\\OrderLines\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -760,11 +907,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 52,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\OrderLines\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\OrderLines\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\OrderLines\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\OrderLines\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\OrderLines\\Delete.cshtml",
               "RelativeToolTip": "Views\\OrderLines\\Delete.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAmwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -772,59 +919,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 53,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Customers\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customers\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Customers\\Index.cshtml",
-              "RelativeToolTip": "Views\\Customers\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T14:29:36.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Customers\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customers\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Customers\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Customers\\Edit.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T14:29:31.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Customers\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customers\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Customers\\Details.cshtml",
-              "RelativeToolTip": "Views\\Customers\\Details.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T14:29:26.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Customers\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customers\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Customers\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Customers\\Delete.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T14:29:17.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Categories\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Categories\\Index.cshtml",
               "RelativeToolTip": "Views\\Categories\\Index.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -832,11 +931,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 54,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Categories\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Categories\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Categories\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Categories\\Details.cshtml",
               "RelativeToolTip": "Views\\Categories\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -844,11 +943,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 55,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Categories\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Categories\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Categories\\Delete.cshtml",
               "RelativeToolTip": "Views\\Categories\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -856,11 +955,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 56,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Categories\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Categories\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Categories\\Create.cshtml",
               "RelativeToolTip": "Views\\Categories\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -868,35 +967,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Products\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Products\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Products\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Products\\Edit.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T12:08:47.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Products\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Products\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Products\\Create.cshtml",
-              "RelativeToolTip": "Views\\Products\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T19:20:00.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 57,
               "Title": "Upload.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Contracts\\Upload.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Contracts\\Upload.cshtml",
               "RelativeDocumentMoniker": "Views\\Contracts\\Upload.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Contracts\\Upload.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Contracts\\Upload.cshtml",
               "RelativeToolTip": "Views\\Contracts\\Upload.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -904,35 +979,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Products\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Products\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Products\\Details.cshtml",
-              "RelativeToolTip": "Views\\Products\\Details.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T11:23:24.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Products\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Products\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Products\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Products\\Delete.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T11:23:28.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Categories\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Categories\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Views\\Categories\\Edit.cshtml",
               "RelativeToolTip": "Views\\Categories\\Edit.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -940,16 +991,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 59,
               "Title": "20250826185605_initialcreate.cs",
-              "DocumentMoniker": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Migrations\\20250826185605_initialcreate.cs",
+              "DocumentMoniker": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Migrations\\20250826185605_initialcreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20250826185605_initialcreate.cs",
-              "ToolTip": "C:\\Users\\Zach\\Desktop\\C2B_POE1\\Migrations\\20250826185605_initialcreate.cs",
+              "ToolTip": "C:\\Users\\Zach\\Documents\\GitHub\\CLDV-POE2\\C2B_POE1\\Migrations\\20250826185605_initialcreate.cs",
               "RelativeToolTip": "Migrations\\20250826185605_initialcreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T18:56:05.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T18:56:05.8Z"
             }
           ]
         }

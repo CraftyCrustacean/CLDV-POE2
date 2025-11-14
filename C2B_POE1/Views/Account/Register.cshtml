@@ -1,0 +1,50 @@
+﻿@model RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div style="max-width: 500px; margin: 50px auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h1>Create Account</h1>
+
+    <form asp-action="Register" method="post">
+        <div asp-validation-summary="ModelOnly" style="color: red; margin-bottom: 15px;"></div>
+
+        <div style="margin-bottom: 15px;">
+            <label asp-for="FirstName">First Name</label>
+            <input asp-for="FirstName" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" />
+            <span asp-validation-for="FirstName" style="color: red;"></span>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label asp-for="LastName">Last Name</label>
+            <input asp-for="LastName" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" />
+            <span asp-validation-for="LastName" style="color: red;"></span>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label asp-for="Email">Email</label>
+            <input asp-for="Email" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" />
+            <span asp-validation-for="Email" style="color: red;"></span>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label asp-for="Password">Password</label>
+            <input asp-for="Password" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" />
+            <span asp-validation-for="Password" style="color: red;"></span>
+            <small style="display: block; color: #666;">Minimum 6 characters</small>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label asp-for="ConfirmPassword">Confirm Password</label>
+            <input asp-for="ConfirmPassword" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" />
+            <span asp-validation-for="ConfirmPassword" style="color: red;"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="padding: 10px 20px; background: #b8acf2; color: #212024; border: none; border-radius: 4px; cursor: pointer;">Register</button>
+        <a asp-action="Login" style="margin-left: 10px;">Already have an account? Login</a>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

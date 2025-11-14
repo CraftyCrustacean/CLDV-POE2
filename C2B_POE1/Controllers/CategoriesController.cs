@@ -16,7 +16,7 @@ namespace C2B_POE1.Controllers
         // GET: Categories
         public async Task<IActionResult> Index()
         {
-            var categories = await _httpClient.GetFromJsonAsync<List<Category>>("https://st10435382func-e0drdcavcae5chen.uksouth-01.azurewebsites.net/api/table/Category");
+            var categories = await _httpClient.GetFromJsonAsync<List<Category>>("https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/table/Category");
             return View(categories ?? new List<Category>());
         }
 
@@ -25,7 +25,7 @@ namespace C2B_POE1.Controllers
         {
             if (string.IsNullOrEmpty(rowKey)) return NotFound();
 
-            var categories = await _httpClient.GetFromJsonAsync<List<Category>>("https://st10435382func-e0drdcavcae5chen.uksouth-01.azurewebsites.net/api/table/Category");
+            var categories = await _httpClient.GetFromJsonAsync<List<Category>>("https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/table/Category");
             var category = categories?.FirstOrDefault(c => c.RowKey == rowKey);
             if (category == null) return NotFound();
 
@@ -47,7 +47,7 @@ namespace C2B_POE1.Controllers
             category.RowKey = Guid.NewGuid().ToString();
             category.PartitionKey = "Category";
 
-            var response = await _httpClient.PostAsJsonAsync("https://st10435382func-e0drdcavcae5chen.uksouth-01.azurewebsites.net/api/table/Category", category);
+            var response = await _httpClient.PostAsJsonAsync("https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/table/Category", category);
             if (!response.IsSuccessStatusCode)
             {
                 ModelState.AddModelError("", "Failed to create category via function.");
@@ -62,7 +62,7 @@ namespace C2B_POE1.Controllers
         {
             if (string.IsNullOrEmpty(rowKey)) return NotFound();
 
-            var categories = await _httpClient.GetFromJsonAsync<List<Category>>("https://st10435382func-e0drdcavcae5chen.uksouth-01.azurewebsites.net/api/table/Category");
+            var categories = await _httpClient.GetFromJsonAsync<List<Category>>("https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/table/Category");
             var category = categories?.FirstOrDefault(c => c.RowKey == rowKey);
             if (category == null) return NotFound();
 
@@ -81,7 +81,7 @@ namespace C2B_POE1.Controllers
 
             category.PartitionKey = "Category";
 
-            var response = await _httpClient.PostAsJsonAsync("https://st10435382func-e0drdcavcae5chen.uksouth-01.azurewebsites.net/api/table/Category", category);
+            var response = await _httpClient.PostAsJsonAsync("https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/table/Category", category);
             if (!response.IsSuccessStatusCode)
             {
                 ModelState.AddModelError("", "Failed to update category via function.");
@@ -96,7 +96,7 @@ namespace C2B_POE1.Controllers
         {
             if (string.IsNullOrEmpty(rowKey)) return NotFound();
 
-            var categories = await _httpClient.GetFromJsonAsync<List<Category>>("https://st10435382func-e0drdcavcae5chen.uksouth-01.azurewebsites.net/api/table/Category");
+            var categories = await _httpClient.GetFromJsonAsync<List<Category>>("https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/table/Category");
             var category = categories?.FirstOrDefault(c => c.RowKey == rowKey);
             if (category == null) return NotFound();
 
@@ -108,7 +108,7 @@ namespace C2B_POE1.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string rowKey)
         {
-            var request = new HttpRequestMessage(HttpMethod.Delete, $"https://st10435382func-e0drdcavcae5chen.uksouth-01.azurewebsites.net/api/table/Category/{rowKey}");
+            var request = new HttpRequestMessage(HttpMethod.Delete, $"https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/table/Category/{rowKey}");
             var response = await _httpClient.SendAsync(request);
 
             if (!response.IsSuccessStatusCode)

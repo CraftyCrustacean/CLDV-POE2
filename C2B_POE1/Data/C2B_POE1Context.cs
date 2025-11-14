@@ -16,7 +16,6 @@ namespace C2B_POE1.Data
 
         public DbSet<C2B_POE1.Models.Product> Product { get; set; } = default!;
         public DbSet<C2B_POE1.Models.Category> Category { get; set; } = default!;
-        public DbSet<C2B_POE1.Models.Customer> Customer { get; set; } = default!;
         public DbSet<C2B_POE1.Models.Order> Order { get; set; } = default!;
         public DbSet<C2B_POE1.Models.OrderLine> OrderLine { get; set; } = default!;
     }

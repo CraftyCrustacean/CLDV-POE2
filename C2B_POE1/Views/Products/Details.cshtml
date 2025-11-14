@@ -39,6 +39,22 @@
 </div>
 
 <div>
-    <a asp-action="Edit" asp-route-rowKey="@Model.RowKey" asp-route-partitionKey="@Model.PartitionKey">Edit</a> |
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-action="Edit" asp-route-rowKey="@Model.RowKey" asp-route-partitionKey="@Model.PartitionKey" class="btn btn-warning">Edit</a>
+        <span>|</span>
+    }
+
+    @if (User.Identity?.IsAuthenticated == true && User.IsInRole("Customer"))
+    {
+        <form asp-controller="Cart" asp-action="AddToCart" method="post" style="display: inline;">
+            <input type="hidden" name="rowKey" value="@Model.RowKey" />
+            <input type="hidden" name="returnUrl" value="@Url.Action("Details", "Products", new { rowKey = Model.RowKey })" />
+            <input type="number" name="quantity" value="1" min="1" style="width: 60px; padding: 5px;" />
+            <button type="submit" class="btn btn-success">Add to Cart</button>
+        </form>
+        <span>|</span>
+    }
+
     <a asp-action="Index">Back to List</a>
 </div>

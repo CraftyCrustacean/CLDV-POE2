@@ -1,6 +1,21 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            const badge = document.getElementById('cart-count');
+            if (badge) {
+                fetch('/Cart/GetCartCount')
+                    .then(res => res.json())
+                    .then(data => {
+                        badge.textContent = data.count;
+                        badge.style.display = data.count > 0 ? 'flex' : 'none';
+                    })
+                    .catch(err => console.error(err));
+            }
+        });
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>@ViewBag.Title - My WebApp</title>
@@ -28,26 +43,88 @@
             </div>
 
             <div class="topbar-right">
-                <a href="@Url.Action("Create", "Customers")">
-                    <span class="material-icons">person</span>
-                    <span>Add Customer</span>
-                </a>
-                <a href="@Url.Action("Soon", "WIP")">
-                    <span class="material-icons">favorite</span>
-                    <span>Wishlist</span>
-                </a>
-                <a href="@Url.Action("Index", "Cart")">
-                    <span class="material-icons">shopping_cart</span>
-                    <span>Cart</span>
-                </a>
+                @if (User.Identity?.IsAuthenticated == true)
+                {
+                    @if (User.IsInRole("Customer"))
+                    {
+                        <a href="@Url.Action("Index", "Cart")" style="position: relative; display: flex; align-items: center; gap: 5px;">
+                            <span id="cart-count" style="background: #BEB4F1; color: #333333; border-radius: 50%; width: 22px; height: 22px; display: none; align-items: center; justify-content: center; font-size: 11px; font-weight: bold;">
+                                0
+                            </span>
+                            <span class="material-icons">shopping_cart</span>
+                            <span>Cart</span>
+                        </a>
+                        <a href="@Url.Action("MyOrders", "Orders")">
+                            <span class="material-icons">receipt</span>
+                            <span>My Orders</span>
+                        </a>
+                    }
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a href="@Url.Action("Index", "Orders")">
+                            <span class="material-icons">admin_panel_settings</span>
+                            <span>Manage Orders</span>
+                        </a>
+                        <a href="@Url.Action("Index", "Products")">
+                            <span class="material-icons">inventory</span>
+                            <span>Manage Products</span>
+                        </a>
+                    }
+                }
+                else
+                {
+                    <a href="@Url.Action("Login", "Account")">
+                        <span class="material-icons">login</span>
+                        <span>Login</span>
+                    </a>
+                    <a href="@Url.Action("Register", "Account")">
+                        <span class="material-icons">person_add</span>
+                        <span>Register</span>
+                    </a>
+                }
             </div>
         </div>
 
-        <div class="topbar-subnav">
-            <a href="@Url.Action("Upload", "Contracts")">Upload Contract</a>
-            <span>|</span>
-            <a href="@Url.Action("Create", "Products")">Add a Product</a>
-        </div>
+        @if (User.IsInRole("Admin"))
+        {
+            <div class="topbar-subnav">
+                <div style="display: flex; align-items: center;">
+                    <a href="@Url.Action("Upload", "Contracts")">Upload Contract</a>
+                    <span>|</span>
+                    <a href="@Url.Action("Create", "Products")">Add a Product</a>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 15px; margin-left: auto;">
+                    <span style="color: white;">
+                        @User.FindFirst(System.Security.Claims.ClaimTypes.GivenName)?.Value (@User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value)
+                    </span>
+                    <form asp-controller="Account" asp-action="Logout" method="post" style="display: inline; margin: 0;">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" style="background: #BEB4F1; border: none; color: #333333; padding: 5px 15px; border-radius: 4px; cursor: pointer;">
+                            Logout
+                        </button>
+                    </form>
+                </div>
+            </div>
+        }
+        else if (User.Identity?.IsAuthenticated == true)
+        {
+            <div class="topbar-subnav">
+                <div style="flex: 1;"></div>
+                <div style="display: flex; align-items: center; gap: 15px; margin-left: auto;">
+                    <span style="color: white;">
+                        @User.FindFirst(System.Security.Claims.ClaimTypes.GivenName)?.Value (@User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value)
+                    </span>
+                    <form asp-controller="Account" asp-action="Logout" method="post" style="display: inline; margin: 0;">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" style="background: #BEB4F1; border: none; color: #333333; padding: 5px 15px; border-radius: 4px; cursor: pointer;">
+                            Logout
+                        </button>
+                    </form>
+                </div>
+            </div>
+        }
     </header>
 
     <main class="content">

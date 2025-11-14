@@ -32,7 +32,7 @@ namespace C2B_POE1.Data
             };
 
             var response = await _httpClient.PostAsJsonAsync(
-                "https://st10435382func-e0drdcavcae5chen.uksouth-01.azurewebsites.net/api/EnqueueOrder", queueMessage);
+                "https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/EnqueueOrder", queueMessage);
 
             response.EnsureSuccessStatusCode();
         }

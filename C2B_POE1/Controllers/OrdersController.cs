@@ -1,62 +1,88 @@
 ﻿using C2B_POE1.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Net.Http.Json;
 
-namespace C2B_POE1.Controllers
+[Authorize]
+public class OrdersController : Controller
 {
-    public class OrdersController : Controller
+	private readonly HttpClient _httpClient;
+
+	public OrdersController(HttpClient httpClient)
+	{
+		_httpClient = httpClient;
+	}
+
+	// GET: Orders
+	[Authorize(Roles = "Admin")]
+	public async Task<IActionResult> Index()
+	{
+		var orders = await _httpClient.GetFromJsonAsync<List<Order>>("https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/table/Orders");
+		return View(orders ?? new List<Order>());
+	}
+
+	// GET: Orders/MyOrders
+	[Authorize(Roles = "Customer")]
+	public async Task<IActionResult> MyOrders()
+	{
+		var userEmail = User.FindFirst(System.Security.Claims.ClaimTypes.Email)?.Value;
+		var orders = await _httpClient.GetFromJsonAsync<List<Order>>("https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/table/Orders");
+		var myOrders = orders?.Where(o => o.PartitionKey == userEmail)
+							  .OrderByDescending(o => o.Timestamp)
+							  .ToList() ?? new List<Order>();
+
+		return View(myOrders);
+	}
+
+    // GET: Orders/Details/5
+    public async Task<IActionResult> Details(string rowKey)
     {
-        private readonly HttpClient _httpClient;
+        if (string.IsNullOrEmpty(rowKey)) return NotFound();
 
-        public OrdersController(HttpClient httpClient)
+        var orderLines = await _httpClient.GetFromJsonAsync<List<OrderLine>>("https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/table/OrderLines");
+        var linesForOrder = orderLines?.Where(l => l.PartitionKey == rowKey).ToList() ?? new List<OrderLine>();
+
+        var orders = await _httpClient.GetFromJsonAsync<List<Order>>("https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/table/Orders");
+        var order = orders?.FirstOrDefault(o => o.RowKey == rowKey);
+        if (order == null) return NotFound();
+
+        if (User.IsInRole("Customer") && order.PartitionKey != User.FindFirst(System.Security.Claims.ClaimTypes.Email)?.Value)
         {
-            _httpClient = httpClient;
+            return Forbid();
         }
 
-        // GET: Orders
-        public async Task<IActionResult> Index()
-        {
-            var orders = await _httpClient.GetFromJsonAsync<List<Order>>("https://st10435382func-e0drdcavcae5chen.uksouth-01.azurewebsites.net/api/table/Order");
-            return View(orders ?? new List<Order>());
-        }
+        var products = await _httpClient.GetFromJsonAsync<List<Product>>("https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/table/Product");
 
-        // GET: Orders/Details/5
-        public async Task<IActionResult> Details(string rowKey)
-        {
-            if (string.IsNullOrEmpty(rowKey)) return NotFound();
+        var productLookup = products?.ToDictionary(p => p.RowKey, p => p) ?? new Dictionary<string, Product>();
 
-            var orderLines = await _httpClient.GetFromJsonAsync<List<OrderLine>>("https://st10435382func-e0drdcavcae5chen.uksouth-01.azurewebsites.net/api/table/OrderLine");
-            var linesForOrder = orderLines?.Where(l => l.PartitionKey == $"Order_{rowKey}").ToList() ?? new List<OrderLine>();
-
-            var orders = await _httpClient.GetFromJsonAsync<List<Order>>("https://st10435382func-e0drdcavcae5chen.uksouth-01.azurewebsites.net/api/table/Order");
-            var order = orders?.FirstOrDefault(o => o.RowKey == rowKey);
-            if (order == null) return NotFound();
-
-            ViewBag.OrderLines = linesForOrder;
-            return View(order);
-        }
-
-        // POST: Orders/MarkFulfilled
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        public async Task<IActionResult> MarkFulfilled(string rowKey)
-        {
-            if (string.IsNullOrEmpty(rowKey)) return BadRequest();
-
-            var orders = await _httpClient.GetFromJsonAsync<List<Order>>("https://st10435382func-e0drdcavcae5chen.uksouth-01.azurewebsites.net/api/table/Order");
-            var order = orders?.FirstOrDefault(o => o.RowKey == rowKey);
-            if (order == null) return NotFound();
-
-            order.Fufilled = true;
-            var response = await _httpClient.PostAsJsonAsync("https://st10435382func-e0drdcavcae5chen.uksouth-01.azurewebsites.net/api/table/Order", order);
-
-            if (!response.IsSuccessStatusCode)
-            {
-                TempData["Error"] = "Failed to update order via function.";
-            }
-
-            return RedirectToAction("Index");
-        }
+        ViewBag.OrderLines = linesForOrder;
+        ViewBag.ProductLookup = productLookup;
+        return View(order);
     }
+
+    // POST: Orders/MarkFulfilled
+    [HttpPost]
+	[Authorize(Roles = "Admin")]
+	public async Task<IActionResult> MarkFulfilled(string rowKey)
+	{
+		if (string.IsNullOrEmpty(rowKey)) return BadRequest();
+
+		var orders = await _httpClient.GetFromJsonAsync<List<Order>>("https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/table/Orders");
+		var order = orders?.FirstOrDefault(o => o.RowKey == rowKey);
+		if (order == null) return NotFound();
+
+		order.Fufilled = true;
+		var response = await _httpClient.PostAsJsonAsync("https://st10435382funcpoe-fqfyeceahsfedacs.southafricanorth-01.azurewebsites.net/api/table/Orders", order);
+
+		if (!response.IsSuccessStatusCode)
+		{
+			TempData["Error"] = "Failed to update order via function.";
+		}
+		else
+		{
+			TempData["Success"] = "Order marked as fulfilled";
+		}
+
+		return RedirectToAction("Index");
+	}
+
 }

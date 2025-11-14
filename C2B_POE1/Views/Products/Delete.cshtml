@@ -23,9 +23,14 @@
 
         <dt class="col-sm-2">Image</dt>
         <dd class="col-sm-10">
-            @(!string.IsNullOrEmpty(Model.ProductImageURL)
-                ? $"<img src='{Model.ProductImageURL}' alt='{Model.ProductName}' width='150' />"
-                : "<em>No image available</em>")
+            @if (!string.IsNullOrEmpty(Model.ProductImageURL))
+            {
+                <img src="@Model.ProductImageURL" alt="@Model.ProductName" width="150" />
+            }
+            else
+            {
+                <em>No image available</em>
+            }
         </dd>
 
         <dt class="col-sm-2">Category</dt>
@@ -34,7 +39,7 @@
         </dd>
     </dl>
 
-    <form asp-action="Delete">
+    <form asp-action="Delete" method="post">
         <input type="hidden" asp-for="RowKey" />
         <input type="hidden" asp-for="PartitionKey" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |

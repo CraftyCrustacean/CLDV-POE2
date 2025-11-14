@@ -30,27 +30,44 @@ namespace C2B_Functions.Functions
         public async Task Run(
             [QueueTrigger("orders-queue", Connection = "AzureWebJobsStorage")] string queueMessage)
         {
-            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-
             _logger.LogInformation("Raw queue message: " + queueMessage);
 
-            QueueOrderMessage? orderMessage;
+            // Decode from base64 first
+            string decodedJson;
             try
             {
-                orderMessage = JsonSerializer.Deserialize<QueueOrderMessage>(queueMessage, options);
+                var bytes = Convert.FromBase64String(queueMessage);
+                decodedJson = Encoding.UTF8.GetString(bytes);
+                _logger.LogInformation("Decoded JSON: " + decodedJson);
+            }
+            catch
+            {
+                // If it's not base64, use as-is
+                decodedJson = queueMessage;
+                _logger.LogInformation("Not base64, using as-is");
+            }
+
+            // Deserialize the order message
+            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+            QueueOrderMessage? orderMessage;
+
+            try
+            {
+                orderMessage = JsonSerializer.Deserialize<QueueOrderMessage>(decodedJson, options);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Failed to deserialize queue message.");
+                _logger.LogError(ex, "Failed to deserialize: " + decodedJson);
                 return;
             }
 
             if (orderMessage?.Order == null)
             {
-                _logger.LogError("Order is null in queue message.");
+                _logger.LogError("Order is null");
                 return;
             }
 
+            // Add to tables
             await _ordersTable.AddEntityAsync(orderMessage.Order);
 
             if (orderMessage.OrderLines != null)
@@ -65,7 +82,5 @@ namespace C2B_Functions.Functions
                 "Order {orderRowKey} and {count} lines written to Azure Tables.",
                 orderMessage.Order.RowKey, orderMessage.OrderLines?.Count ?? 0);
         }
-
-
     }
 }

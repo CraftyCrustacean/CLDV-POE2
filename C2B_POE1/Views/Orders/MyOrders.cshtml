@@ -1,0 +1,47 @@
+﻿@model IEnumerable<C2B_POE1.Models.Order>
+
+@{
+    ViewData["Title"] = "My Orders";
+}
+
+<h1>My Orders</h1>
+
+@if (!Model.Any())
+{
+    <p>You haven't placed any orders yet. <a asp-controller="Products" asp-action="Index">Start shopping!</a></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.RowKey.Substring(0, 8)...</td>
+                    <td>@(item.Timestamp?.ToString("MMM dd, yyyy") ?? "N/A")</td>
+                    <td>
+                        @if (item.Fufilled)
+                        {
+                            <span style="color: #359c10; font-weight: bold;">Fulfilled</span>
+                        }
+                        else
+                        {
+                            <span style="color: #cfa717; font-weight: bold;">Pending</span>
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-rowKey="@item.RowKey">View Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
